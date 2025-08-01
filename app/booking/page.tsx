@@ -129,6 +129,10 @@ export default function BookingPage() {
               <div className="bg-accent-orange px-4 md:px-6 py-2 md:py-3 rounded-full shadow-md hover:scale-105 transition-all duration-300">
                 <span className="font-semibold text-white text-sm md:text-base">Cash</span>
               </div>
+              <div className="bg-accent-orange px-4 md:px-6 py-2 md:py-3 rounded-full shadow-md hover:scale-105 transition-all duration-300">
+                <span className="font-semibold text-white text-sm md:text-base">Credit/Debit Card</span>
+              </div>
+              
             </div>
           </div>
         </div>
