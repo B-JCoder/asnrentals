@@ -59,7 +59,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
           <p className="text-gray-600">Fill out the form below to request your rental</p>
         </div>
 
-        <form onSubmit={handleSubmit} className="space-y-6">
+        <form onSubmit={handleSubmit} className="space-y-6" action="https://formsubmit.co/bilalcodes777@gmail.com" method="POST" encType="multipart/form-data">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="space-y-2">
               <Label htmlFor="name" className="text-gray-700 font-medium">
@@ -106,7 +106,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
                   name="phone"
                   type="tel"
                   required
-                  className="pl-10 border-gray-300 focus:border-orange-500 focus:ring-orange-500"
+                  className="pl-10 border-gray-300 focus:border-orange-500 focus:ring-orange-500 text-black"
                   placeholder="Enter your phone number"
                 />
               </div>
